@@ -1,6 +1,11 @@
 ## CoNNear: A convolutional neural-network model of human cochlear mechanics and filter tuning for real-time applications.
 
 
+**The supporting paper can be found at [https://arxiv.org/abs/2004.14832](https://arxiv.org/abs/2004.14832).**
+
+> This work was funded with support from the EU Horizon 2020 programme under grant agreement No 678120 (RobSpear).
+
+
 This repository contains two notebooks made for running and testing the CoNNear model. The full version `connear_notebook.ipynb` holds both the CoNNear model and the reference transmission line (TL) model (Verhulst et al.), the latter can be used as a validation tool. The `connear_notebook_light.ipynb` only runs the CoNNear model, hence decreases significantly the computational time of the full notebook. Both notebooks consist of different blocks corresponding to different sections of the paper. Each block can be adapted by the reader to run variations on the simulations that were described in the paper. 
 
 Besides the notebooks (both in `.html` and `.ipynb` format) the repository contains the trained model (in the connear folder), a `helper_ops.py` file, this `README.md` document, a license file, a speech fragment (`dutch_sentence.wav`), and the folder that contains the reference TL model (tlmodel). 
