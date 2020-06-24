@@ -11,9 +11,9 @@ Besides the notebooks (both in `.html` and `.ipynb` format) the repository conta
 	```
 	gcc -shared -fpic -O3 -ffast-math -o tridiag.so cochlea_utils.c
 	```
-If running on google colab: add the following as a code block and run it to compile cochlea_utils.c in the runtime machine.
+> If running on google colab: add the following as a code block and run it to compile cochlea_utils.c in the runtime machine.
 
-	!gcc -shared -fpic -O3 -ffast-math -o tridiag.so cochlea_utils.c
+>	!gcc -shared -fpic -O3 -ffast-math -o tridiag.so cochlea_utils.c
 
 2. Install numpy, scipy, keras and tensorflow in a code environment. We opted for Anaconda v2020.02 and used the following versions: 
 	+ Python 3.6
