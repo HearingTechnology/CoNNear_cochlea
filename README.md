@@ -1,16 +1,16 @@
 ## CoNNear: A convolutional neural-network model of human cochlear mechanics and filter tuning for real-time applications.
 
 
-This repository contains two notebooks made for running and testing the CoNNear model. The full version "connear_notebook" holds both the CoNNear model and the reference transmission line (TL) model (Verhulst et al.), the latter can be used as a validation tool. The "connear_notebook_light" only runs the CoNNear model, hence decreases significantly the computational time of the full notebook. Both notebooks consist of different blocks corresponding to different sections of the paper. Each block can be adapted by the reader to run variations on the simulations that were described in the paper. 
+This repository contains two notebooks made for running and testing the CoNNear model. The full version `connear_notebook` holds both the CoNNear model and the reference transmission line (TL) model (Verhulst et al.), the latter can be used as a validation tool. The `connear_notebook_light` only runs the CoNNear model, hence decreases significantly the computational time of the full notebook. Both notebooks consist of different blocks corresponding to different sections of the paper. Each block can be adapted by the reader to run variations on the simulations that were described in the paper. 
 
-Besides the notebooks (both in .html and .ipynb format) the repository contains the trained model (in the connear folder), a helper_ops.py file, this README.md document, a license file, a speech fragment (dutch_sentence.wav), and the folder that contains the reference TL model (tlmodel). 
+Besides the notebooks (both in `.html` and `.ipynb` format) the repository contains the trained model (in the connear folder), a `helper_ops.py` file, this `README.md` document, a license file, a speech fragment (`dutch_sentence.wav`), and the folder that contains the reference TL model (tlmodel). 
 
 ## How to test the CoNNear model
 
 1. If it's the first time you run the full notebook, you'll have to compile the cochlea_utils.c file that is used for solving the transmission line (TL) model of the cochlea. This requires some C++ compiler which should be installed beforehand. Go the  tlmodel-folder from the terminal and run:
-
+	```
 	gcc -shared -fpic -O3 -ffast-math -o tridiag.so cochlea_utils.c
-	
+	```
 If running on google colab: add the following as a code block and run it to compile cochlea_utils.c in the runtime machine.
 
 	!gcc -shared -fpic -O3 -ffast-math -o tridiag.so cochlea_utils.c
