@@ -1,7 +1,7 @@
 ## CoNNear: A convolutional neural-network model of human cochlear mechanics and filter tuning for real-time applications.
 
 
-This repository contains two notebooks made for running and testing the CoNNear model. The full version `connear_notebook` holds both the CoNNear model and the reference transmission line (TL) model (Verhulst et al.), the latter can be used as a validation tool. The `connear_notebook_light` only runs the CoNNear model, hence decreases significantly the computational time of the full notebook. Both notebooks consist of different blocks corresponding to different sections of the paper. Each block can be adapted by the reader to run variations on the simulations that were described in the paper. 
+This repository contains two notebooks made for running and testing the CoNNear model. The full version `connear_notebook.ipynb` holds both the CoNNear model and the reference transmission line (TL) model (Verhulst et al.), the latter can be used as a validation tool. The `connear_notebook_light.ipynb` only runs the CoNNear model, hence decreases significantly the computational time of the full notebook. Both notebooks consist of different blocks corresponding to different sections of the paper. Each block can be adapted by the reader to run variations on the simulations that were described in the paper. 
 
 Besides the notebooks (both in `.html` and `.ipynb` format) the repository contains the trained model (in the connear folder), a `helper_ops.py` file, this `README.md` document, a license file, a speech fragment (`dutch_sentence.wav`), and the folder that contains the reference TL model (tlmodel). 
 
@@ -46,7 +46,7 @@ The installation time for the Anaconda environment and dependencies is approxima
 ----
 For questions, please reach out to one of the corresponding authors
 
-Deepak Baby: deepakbabycet@gmail.com
-Arthur Van Den Broucke: arthur.vandenbroucke@ugent.be
-Sarah Verhulst: s.verhulst@ugent.be
+* Deepak Baby: deepakbabycet@gmail.com
+* Arthur Van Den Broucke: arthur.vandenbroucke@ugent.be
+* Sarah Verhulst: s.verhulst@ugent.be
 
