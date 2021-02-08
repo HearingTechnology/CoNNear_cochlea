@@ -1,7 +1,7 @@
 ## CoNNear: A convolutional neural-network model of human cochlear mechanics and filter tuning for real-time applications.
 
 
-**The supporting paper can be found at [https://arxiv.org/abs/2004.14832](https://arxiv.org/abs/2004.14832).**
+**The supporting paper can be found at [https://www.nature.com/articles/s42256-020-00286-8] with DOI 10.1038/s42256-020-00286-8 (https://arxiv.org/abs/2004.14832).**
 
 > This work was funded with support from the EU Horizon 2020 programme under grant agreement No 678120 (RobSpear).
 
